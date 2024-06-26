@@ -1,0 +1,126 @@
+HTML Section:
+
+1.
+HyperText Markup Language.
+
+2.
+No, some headers like <img> or <input> don't have one.
+
+3.
+
+
+4.
+HTML5 has new headers such as <header>, <footer>, <section> etc.
+Has new types of inputs such as "url" or "number".
+Has <canvas>
+
+5.
+This verifies the HTML version for the current document.
+
+6.
+<script> before </body> so the code inside loads after the page is done rendering.
+<link> inside of <head> to ensure all code in there is loaded before the page renders.
+
+7.
+Tags that describe the use of the section inside. Helps navigate the page better
+
+8.
+<header>, <footer>, <section>...
+
+9.
+Research > Design > Implement > Testing > Publish > Maintain
+
+CSS Section:
+
+10.
+"absolute": the position of an element with this will be relative to its container
+"relative": the position of an element with this will be relative to its current position in the code
+
+11.
+Cascading Style Sheets
+
+12.
+Pros:
+The CSS external file can be reused across projects.
+Faster updating (one update here can update all pages that ultilize the external sheet)
+
+Cons: 
+Updating smaller components is annoying
+
+13.
+3 types: inline, Internal and External CSS
+
+
+14.
+"display: block": Takes up the full line width
+"display: inline": Only takes up width = content size
+
+15.
+Class: reference by using syntax .<classname>
+ID: reference by using syntax #<classname>
+
+16.
+480px = phone
+768px = tablet
+1024px = laptop
+
+"Mobile first":
+// Font size for mobile
+body {
+  font-size: 16px;
+}
+
+// Font size for tablet
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+// Font size for laptop
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+"Mobile first":
+// Font size for laptop
+body {
+  font-size: 20px;
+}
+
+// Font size for tablet
+@media (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+// Font size for phone
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+17.
+<div> and <ul>: "display: block"
+<span>: "display: inline"
+
+18.
+Adjusting the position of an element on the z-axis (pointing out of the screen)
+
+19.
+Set that property to "initial"
+
+20.c
+21.a
+22.a
+23.c
+24.a
+25.b
+26.b
+27.b
+28.c
